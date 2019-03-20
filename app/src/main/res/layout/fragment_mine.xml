@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/LayMM">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_headview" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/decoration_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_size_10"
+            android:background="@color/transparent" />
+
+        <com.wj.baseutils.widget.PersonItemView
+            android:id="@+id/item_mine_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="我的余额" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_size_10"
+            android:background="@color/transparent" />
+
+        <com.wj.baseutils.widget.PersonItemView
+            android:id="@+id/item_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="版本更新" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_size_10"
+            android:background="@color/transparent" />
+
+        <com.wj.baseutils.widget.PersonItemView
+            android:id="@+id/item_shop_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="邀请好友" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_size_10"
+            android:background="@color/transparent" />
+
+        <com.wj.baseutils.widget.PersonItemView
+            android:id="@+id/item_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="路况" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_size_10"
+            android:background="@color/transparent" />
+
+    </LinearLayout>
+</ScrollView>
